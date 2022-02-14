@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{D9FFDF58-439B-462F-974F-E44D9FA5C868}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Allagi.CodeGenerator.Core", "src\Allagi.CodeGenerator.Core\Allagi.CodeGenerator.Core.csproj", "{F1E826A1-0B8B-4ECC-889B-95EC06C87046}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{44FFE784-7592-40E9-8332-28D398F88CED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Allagi.CodeGenerator.Core.UnitTests", "test\Allagi.CodeGenerator.Core.UnitTests\Allagi.CodeGenerator.Core.UnitTests.csproj", "{76D73604-0E35-458A-93E3-9051549FB141}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F1E826A1-0B8B-4ECC-889B-95EC06C87046}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1E826A1-0B8B-4ECC-889B-95EC06C87046}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1E826A1-0B8B-4ECC-889B-95EC06C87046}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1E826A1-0B8B-4ECC-889B-95EC06C87046}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76D73604-0E35-458A-93E3-9051549FB141}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76D73604-0E35-458A-93E3-9051549FB141}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76D73604-0E35-458A-93E3-9051549FB141}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76D73604-0E35-458A-93E3-9051549FB141}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F1E826A1-0B8B-4ECC-889B-95EC06C87046} = {D9FFDF58-439B-462F-974F-E44D9FA5C868}
+		{76D73604-0E35-458A-93E3-9051549FB141} = {44FFE784-7592-40E9-8332-28D398F88CED}
+	EndGlobalSection
+EndGlobal
