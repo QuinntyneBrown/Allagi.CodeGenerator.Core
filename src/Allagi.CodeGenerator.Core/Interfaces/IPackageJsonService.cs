@@ -1,4 +1,4 @@
-﻿namespace Allagi.CodeGenerator.Core.Services
+﻿namespace Allagi.CodeGenerator.Core.Interfaces
 {
     public interface IPackageJsonService
     {

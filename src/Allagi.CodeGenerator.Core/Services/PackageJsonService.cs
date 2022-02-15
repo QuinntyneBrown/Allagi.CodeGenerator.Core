@@ -1,4 +1,5 @@
-﻿using Newtonsoft.Json.Linq;
+﻿using Allagi.CodeGenerator.Core.Interfaces;
+using Newtonsoft.Json.Linq;
 
 namespace Allagi.CodeGenerator.Core.Services
 {
